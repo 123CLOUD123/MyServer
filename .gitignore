@@ -1,0 +1,4 @@
+#忽略依赖模块
+.settings/
+src/test/
+target/
