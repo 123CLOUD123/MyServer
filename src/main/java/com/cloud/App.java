@@ -13,8 +13,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * Hello world!
  *
  */
-//@Controller
-//@EnableAutoConfiguration
 @SpringBootApplication
 @EnableJpaRepositories
 @EnableTransactionManagement
