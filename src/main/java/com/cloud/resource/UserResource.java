@@ -1,4 +1,4 @@
-package com.cloud.rest;
+package com.cloud.resource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,7 +18,7 @@ public class UserResource {
 	
 	@RequestMapping(value = "login", method = RequestMethod.POST, produces = { "application/json;charset=UTF-8" })
 	UserDto login(String name, String password) {
-		return userService.login(name, password);
+		return userService.login(name, password); 
 	}
 	
 }
